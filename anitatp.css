@@ -1,0 +1,91 @@
+header{
+    text-align: center;
+    vertical-align: bottom;
+    
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e2e8f3;
+    height: 250px;
+     }
+    
+    nav{
+        padding-top: 12px;
+       background-color: rgb(41, 40, 97);
+        width: 1285px;
+        height: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 13px;
+        margin-top: -40px;
+        
+    }
+    nav ul{
+        position: relative;
+        display: flex;
+        background-color: rgb(41, 40, 97);
+        width: 1295px;
+        height: 75px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        list-style: none;
+    
+    }
+    nav li{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(243, 243, 243, 0.788);
+    }
+nav li a:hover {
+    background: beige;
+    color: #eb636b; }
+    .texto{
+        color: white;
+        background-color: white ;
+        border-color: white;
+        font-family: Verdana;
+        font-size: 28px;
+        margin-top: 80px;
+        
+    
+        width: 600px;
+        height: 300px;
+    }
+
+nav ul li a {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: verdana;
+    color: black;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+table {
+    border-color: white;
+}
+
+h2{
+    font-family: Verdana;
+    color: lightblue;
+}
+
+table td ul li a {
+    font-family: verdana;
+    font-size: 17px;
+    color: black;
+}
+
+footer{
+    background-color: #eb636b;
+    color: beige;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+footer ul li a{
+    color:beige;
+    font-family: verdana;
+}
