@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTA</title>
+<link rel="stylesheet" href="formulario.css">
+
+
+<body>
+    <p  align= "center">   FORMULARIO DE CONSULTA </p>  
+
+  <div align= "center">  <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+  <!--input type  -->
+ Ingrese aquí su nombre :
+  <input type="text" name="Nombre">
+  <br>
+  Ingrese su mail:
+    <!--input type para contraseña  -->
+  <input type = "text" name="mail" >
+  <br>
+  <!--cuadro de texto  -->
+  
+ 
+ <!--lista desplegable  --> <p>seleccione el servicio que desea </p>
+  <select name="Opciones">
+    <option value = "Mantenimiento">Mantenimiento</option>
+    <option value = "Reparacion">Reparacion</option>
+    <option value ="Repuestos">Repuestos</option>
+    <option value= "CONSULTA">CONSULTA</option>
+    </select>
+    <br>
+
+
+   <!--opciones  -->  <p>seleccione el dispositivo </p>
+    <input type="radio" id="celular" name="DISPOSITIVO" value="celular" >
+    <label for= "celular">celular</label>
+    <br>
+      <input type="radio" id="pc" name="DISPOSITIVO" value="pc">
+      <label for= "pc">PC</label>
+     <br>  
+   <input type="radio" id="otro" name="DISPOSITIVO" value="otro">
+     <label for= "otro">otro</label>
+     <br>
+     <textarea name="comentario" rows="10" cols="40">En caso de seleccionar "otro" indique el dispositivo ...</textarea>
+
+  <!--botón  -->
+     <input type="submit" value="Enviar">
+  </form> </div>
+
+
+</body>
+</html>
